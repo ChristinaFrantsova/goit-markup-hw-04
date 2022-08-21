@@ -49,7 +49,8 @@ img {
 .conteiner {
   /* max-width: 1200px;
   width: 100%; - спробувати як працює на телефоні */
-  min-width: 1200px;
+
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -185,6 +186,7 @@ img {
 .contact-link:hover .contact-icon,
 .contact-link:focus .contact-icon {
   fill: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 /* HERO */
@@ -193,9 +195,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.hero .conteiner {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -391,6 +391,7 @@ img {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .team-soc-link:hover .team-soc-icon,
@@ -423,6 +424,7 @@ img {
 .clients-icon-link:hover,
 .clients-icon-link:focus {
   border-color: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .clients-icon-link:hover .clients-icon,
@@ -513,6 +515,7 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 /* СТИЛІ ДЛЯ ПОРТФОЛІО */
